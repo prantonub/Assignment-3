@@ -33,7 +33,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                 <li><a class="font-bold">Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
@@ -76,7 +76,7 @@
                 </svg>
 
             </div>
-            <a class="btn bg-lime-400 rounded-full font-bold ml-5 hidden lg:flex">Book Consult
+            <a class="btn bg-lime-400 rounded-full font-bold ml-5 hidden lg:flex ">Book Consult
           <div class="text-white bg-black rounded-full w-8 h-8 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                 class="size-6">
@@ -265,7 +265,7 @@
     </div>
 </section>
 <br> <br> <br> 
-<!-- lets connect section -->
+<!-- Rinterio News section -->
  <section class="bg-slate-50">
 <div>
     <div class="grid lg:place-items-center">
@@ -283,10 +283,10 @@
         <br>
     </div>
 <!-- grid with 3 image -->
-<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3"> 
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-8 "> 
 <!-- image 1 -->
 <div>     
-    <div >
+    <div class="shadow-xl">
             <img  src="assets/article1.png" alt="" srcset="">
             <div class ="flex gap-2 mt-3">
            <div >
@@ -322,7 +322,7 @@
     </div>
 <!-- image2 -->
 <div>
-   <div>
+   <div class="shadow-xl">
     <img src="assets/article2.png" alt="" srcset="">
     <div class="flex gap-2 mt-3">
         <div>
@@ -361,7 +361,7 @@
 </div>
     <!-- image 3 -->
 <div>
-    <div>
+    <div class="shadow-xl">
     <img src="assets/article3.png" alt="" srcset="">
     <div class="flex gap-2 mt-3">
         <div>
@@ -399,7 +399,59 @@
    </div> 
 </div>                
  </section>
-<br>
+<br> <br> <br> <br>
+<!-- form section -->
+<section class="sm:full md:-full w-full">
+<div class="bg-cover bg-center" style="background-image: url(assets/bg.jpg)">    
+<div>
+        <div class="grid lg:place-items-center">
+            <button class="btn rounded-full w-35 mt-10 bg-lime-50">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                Let’s Connect
+            </button>
+            <br>
+            <h1 class="text-3xl font-extrabold text-center">Let’s Discuss Next Project</h1> <br>
+            <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek
+            metal accents.
+                metal accents.</p>
+<!-- form Start -->
+        <div class=" mt-5 flex items-center justify-center sm:flex-1">
+            <div class=" p-15 rounded-xl">
+                <form class="space-y-6">
+                    <div class="flex space-x-4">
+                        <input type="text" placeholder="First Name*"
+                            class="w-full p-4 border border-gray-300 rounded-full"/>
+                        <input type="text" placeholder="Last Name*"
+                            class="w-full p-4 border border-gray-300 rounded-full"/>
+                    </div>
+                    <div class="flex space-x-4">
+                        <input type="tel" placeholder="Phone Number*"
+                            class="w-full p-4 border border-gray-300 rounded-full"/>
+                        <input type="email" placeholder="Email Number*"
+                            class="w-full p-4 border border-gray-300 rounded-full"/>
+                    </div>
+                    <textarea placeholder="Write your message here" rows="6"
+                        class="w-full p-4 border border-gray-300 rounded-2xl"></textarea>
+                        <!-- button -->
+                <a class="btn bg-lime-400 rounded-full font-bold ml-5  lg:flex mr-8 ">Book Consult
+                <div class="text-white bg-black rounded-full w-8 h-8 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </div>
+              </a>
+              <br>
+            </div>
+        </form>
+        <br>
+    </div>
+</div>
+</div>
+</section>       
 </main>
     <!-- Footer Section -->
 <footer>
